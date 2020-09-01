@@ -15,3 +15,21 @@ Run from code
 
 Run tests
 > mvn test
+
+
+Dependencies :-
+1. Maria DB (https://mariadb.com/)
+
+
+Steup :-
+1. Create DB and user
+   > create database orders;
+                         
+   > create user 'springuser'@'%' identified by 'springpwd';
+                                                                                
+   > grant all on orders.* to 'springuser'@'%';                 
+2. Update DB config in application.properties
+
+
+Notes:-
+1. Uses Mysql DB

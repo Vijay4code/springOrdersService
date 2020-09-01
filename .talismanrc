@@ -1,0 +1,5 @@
+fileignoreconfig:
+- filename: src/main/resources/application.properties
+  checksum: f20de7479da552d75b856e768257cdbc51f7d23388943d106d239e8bfda48d70
+  ignore_detectors: []
+scopeconfig: []
